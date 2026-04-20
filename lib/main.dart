@@ -83,6 +83,7 @@ class LayoutExercise extends StatelessWidget {
     );
   }
 
+  //!MAAking a separate method for the small boxes
   Widget buildSmallBox(String text, Color color) {
     return Container(
       height: 80,
